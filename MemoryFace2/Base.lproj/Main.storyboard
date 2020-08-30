@@ -818,9 +818,6 @@
                                 <state key="normal" title="操作方法">
                                     <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="kY3-nS-wuS" kind="show" id="Bfo-qQ-m56"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPC-k6-gD3">
                                 <rect key="frame" x="106.66666666666669" y="354" width="201" height="80"/>
@@ -869,6 +866,14 @@
                                 </state>
                                 <connections>
                                     <segue destination="1lS-Hj-4x2" kind="show" id="dCQ-1a-ehf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQR-rB-Mh8">
+                                <rect key="frame" x="332" y="20" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="操作方法"/>
+                                <connections>
+                                    <segue destination="kY3-nS-wuS" kind="show" id="QKc-6i-N66"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1072,10 +1077,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="enU-Ft-okR"/>
+        <segue reference="Rtl-MF-gjc"/>
         <segue reference="gHD-eu-pQe"/>
         <segue reference="FOG-7H-nY7"/>
-        <segue reference="Bfo-qQ-m56"/>
+        <segue reference="QKc-6i-N66"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="icon_74-1 (2).png" width="567" height="567"/>
